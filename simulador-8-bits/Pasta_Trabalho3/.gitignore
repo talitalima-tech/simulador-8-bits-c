@@ -1,0 +1,26 @@
+# Arquivos de compilação
+*.o
+*.out
+*.exe
+simulador
+
+# Diretórios de compilação
+/build/
+/bin/
+/obj/
+
+# Arquivos temporários do editor
+*~
+*.swp
+*.swo
+*.bak
+
+# Sistema operacional
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Arquivos de logs
+*.log
+
+# Documentação gerada automaticamente (opcional)
+docs/generated/

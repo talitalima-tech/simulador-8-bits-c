@@ -1,0 +1,17 @@
+# Primeira parte: Operandos
+# Endereços de 09 a 0D
+100  # Endereço 09 → A
+-50  # Endereço 0A → B
+50   # Endereço 0B → C
+80   # Endereço 0C → D
+10   # Endereço 0D → E
+
+# Segunda parte: Operações e endereços
+LDD 09   # Carrega A
+SUB 0A   # A - B -> Ocorre OVERFLOW
+STA 09   # Salva resultado temporário em 09
+LDD 0B   # Carrega C
+ADD 0C   # C + D
+MUL 0D   # Multiplica por E
+OUT 00   # Exibe saída
+HLT 00   # Fim do programa

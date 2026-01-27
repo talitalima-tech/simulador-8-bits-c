@@ -1,0 +1,21 @@
+#	   A - B
+#	-----------
+#	C + (D x E)
+	
+# Primeira parte: Operandos
+1
+1
+1
+1
+1
+
+# Segunda parte: Operações e endereços
+LDD 09
+MUL 0A
+ADD 0B
+STA 09
+LDD 0C
+SUB 0D
+DIV 09
+OUT 00
+HLT 00

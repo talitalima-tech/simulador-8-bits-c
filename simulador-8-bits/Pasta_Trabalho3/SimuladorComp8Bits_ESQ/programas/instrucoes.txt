@@ -1,0 +1,19 @@
+# Primeira parte: Operandos
+# Endereços de 09 a 0D
+-10  # Endereço 09 → A
+-10  # Endereço 0A → B
+50   # Endereço 0B → C
+5    # Endereço 0C → D
+10   # Endereço 0D → E
+
+# Segunda parte: Operações e endereços
+LDD 09   # Carrega A
+SUB 0A   # A - B
+STA 09   # Salva resultado temporário em 09
+LDD 0C   # Carrega D
+MUL 0D   # D × E
+ADD 0B   # C + (D × E)
+DIV 09   # Divide pelo resultado de (A - B) → ERRO!
+OUT 00   # Exibe saída
+HLT 00   # Fim do programa
+

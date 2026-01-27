@@ -1,0 +1,13 @@
+	A - B + C
+
+# Primeira parte: Operandos
+-127
+-2
+10
+
+# Segunda parte: Operações e endereços
+LDD 09
+SUB 0A
+ADD 0B
+OUT 00
+HLT 00
